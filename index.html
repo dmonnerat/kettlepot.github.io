@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index.html</title>
+	<meta name="generator" content="BBEdit 11.1" />
+		<meta name="viewport" content="initial-scale=1.0" />
+		<link rel="stylesheet" media="screen" href="home.css" />
+		<script src="jquery.js"></script>
+		<script src="three.min.js"></script>
+		<script src="photo-sphere-viewer.min.js"></script>
+		<script src="home.min.js"></script>
+
+</head>
+<body>
+		<!-- http://jeremyheleine.me/photo-sphere-viewer/ -->
+		<div id="background" data-panorama="R0010006.JPG" data-xmp="0" data-long="90" data-lat="30"></div>
+
+		<div id="loading" style="background: linear-gradient(#344E87, #566E9A);"></div>
+
+		<header>
+		<a onclick="changePanorama('panoramas/pennicerink.JPG')" href="javascript:void(0);">Penn Ice Rink</a> | 
+			<a onclick="changePanorama('panoramas/office.jpg')" href="javascript:void(0);">Comcast Center Office</a> | 
+			<a onclick="changePanorama('panoramas/cimcity.jpg')" href="javascript:void(0);">CIM City</a>
+		</header>
+
+		<footer>
+			<p id="loading-message">Loading...</p>
+		</footer>
+</body>
+</html>
